@@ -1,0 +1,32 @@
+$body-font-family: 'monospace', Courier !important;
+$heading-font-family: Courier !important;
+$my-primary: purple;
+$my-secondary: green;
+
+@import "~vuetify/src/styles/styles.sass";
+
+
+
+
+// .v-application {
+//     font-family: $body-font-family, Courier, monospace !important;
+// }
+
+// .v-application {
+//     [class*='text-'] {
+//         color: #36405a;
+//         font-family: $body-font-family, sans-serif !important;
+//     }
+
+//     font-family: $body-font-family,
+//     Courier,
+//     monospace !important;
+// }
+
+// #app {
+//     font-family: 'Courier New', Courier, monospace !important;
+// }
+
+// .mybtn {
+//     font-family: $body-font-family, Courier, monospace !important;
+// }

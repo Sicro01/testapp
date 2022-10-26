@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import NewView from '../views/NewView.vue'
+import PlanTabView from '../views/PlanTabView.vue'
+import PlanCardView from '../views/PlanCardView.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +11,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: PlanCardView
   },
   {
     path: '/about',
